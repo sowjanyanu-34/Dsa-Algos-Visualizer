@@ -1,5 +1,5 @@
 # AlgoVisualizerX 🎨
-## [Visit here](https://akashb2003.github.io/DSA-algos-visualizer/maze.html) 🌐.
+##  🌐.
 ## Overview
 
 Welcome to the **DSA Algorithms Visualizer**! This project provides interactive visualizations for various **sorting** and **pathfinding** algorithms. Designed to aid learning and understanding, the tool includes:
