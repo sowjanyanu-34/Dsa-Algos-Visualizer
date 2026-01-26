@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Visualizer</h1>
+    
+    <!-- Control Panel -->
+    <div class="control-panel">
+      <button onclick="generateArray()">Generate New Array</button>
+      <button onclick="bubbleSort()">Bubble Sort</button>
+      <button onclick="mergeSort()">Merge Sort</button>
+      <button onclick="quickSort()">Quick Sort</button>
+      <button onclick="redirectToPage()" class="bfs">Maze Visualization</button>
+
+
+      <!-- Speed and Size Sliders -->
+      <label for="speedRange">Animation Speed</label>
+      <input type="range" id="speedRange" min="1" max="100" value="50" onchange="updateSpeed()">
+      
+      <label for="sizeRange">Array Size</label>
+      <input type="range" id="sizeRange" min="10" max="100" value="50" onchange="generateArray()">
+      
+    </div>
+    
+    <!-- Array Container -->
+    <div id="array-container" class="array-container"></div>
+    
+    <!-- Time Complexity Display -->
+    <div class="complexity-display">
+      <p>Current Algorithm: <span id="currentAlgorithm">None</span></p>
+      <p>Time Complexity: <span id="timeComplexity">N/A</span></p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

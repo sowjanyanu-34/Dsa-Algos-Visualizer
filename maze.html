@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Solver Visualization</title>
+    <link rel="stylesheet" href="maze.css">
+</head>
+<body>
+    <h1>Maze Solver Visualization</h1>
+    <div class="controls">
+        <button onclick="generateMaze()">Generate Random Maze</button>
+        <button onclick="bfs()" class="bfs">Find Target (BFS)</button>
+        <button onclick="dfs()" class="dfs">Find Target (DFS)</button>
+        <button onclick="sorting()" class="sorting">Sorting Algorithms</button>
+    </div>
+    <div id="maze-container"></div>
+
+    <script src="maze.js"></script>
+</body>
+</html>
