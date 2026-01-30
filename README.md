@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 About the Project
+## 📌 About the Project:
 
 **AlgoVisualizerX** is an interactive **Data Structures & Algorithms visualizer** built to help students and beginners *understand algorithms visually rather than memorizing them*.
 
