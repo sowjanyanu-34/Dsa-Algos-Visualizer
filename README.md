@@ -1,4 +1,4 @@
-# 🎨 AlgoVisualizerX – DSA Algorithms Visualizer
+# 🎨 AlgoVisualizerX – DSA Algorithms Visualizer:
 
 🌐 **Live Demo**: [Try it here 🚀](https://amazing-stardust-5a8cf4.netlify.app)
 
